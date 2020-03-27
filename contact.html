@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Slemen Project</title>
+</head>
+<body>
+<nav>  <!--contact nav-->
+    <a href="index.html" title="Home" >Home</a>|
+    <a href="about.html" alt="Aboutus" >About Us</a>|
+    <a href="portfolio.html" alt="Portfolio" >Portfolio</a>|
+    <a href="contact.html" alt="Contact" >Contact</a>
+</nav>
+<header>  <!--contact header-->
+    <section id="contact-header"><img src="assets/images/contact.jpg" style="width: 100%; height: 200px;"></img>
+</header>
+<Main>
+        <div id="contactrightMain"> <!--contact form-->
+            <form id="contactUs" method="POST" action="mail.php">
+                <fieldset id="fs">
+                <legend>Contact Us</legend>
+                    <input type="text" id="name" name="name" tabindex="1" 
+                    placeholder="Name" required maxlength="30">
+                    <br>
+                    <input type="email" id="email" name="email" tabindex="2" 
+                    placeholder="E-mail" required maxlength="50"><br>
+                    <input type="phone" id="phone" name="phone" tabindex="3" 
+                    placeholder="Phone" required maxlength="50"><br>
+                    <input type="subject" id="Subject" name="Subject" tabindex="4" 
+                    placeholder="Subject" required maxlength="50">
+                    <br>
+                    <textarea rows="4" cols="20" id="message" name="message"
+                    placeholder="Your message" required></textarea><br>
+                </fieldset>
+                <input type="submit" value="submit">
+             </form> 
+             </div>
+            <div id="contactleftMain"> <!--google maps-->
+            <iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8254.520541532256!2d-81.30757632733751!3d42.99062213199512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef1f414459e43%3A0x5fbea6841280c22d!2sBSJ+Consulting!5e0!3m2!1sen!2s!4v1548973110525" width="785" height="600" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+            </div>
+</Main>
+<footer>
+    <small>© 2020 All rights reserved by Slemen Alderawe</small></footer>
+</body>
+</html>
