@@ -67,15 +67,15 @@ p {
     text-align: center;
   }
   #aboutleftMain {
-    display: block;
     max-width: 100ch;
-    height: 400px;
+    height: 450px;
     font-size: 1.4rem;
+    margin: 30px auto;
     text-align: center;
     line-height: 2;
     padding-left: 1.5mm;
     padding-right: 1mm;
-    text-overflow: ellipsis;
+    overflow: auto;
 }
 hr { 
   display: block;
