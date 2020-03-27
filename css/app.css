@@ -66,14 +66,15 @@ p {
     font-size: 2rem;
     text-align: center;
   }
-article {
-  max-width: 100ch;
-  font-size: 1.4rem;
-  text-align: center;
-  line-height: 2;
-  padding-left: 1.5mm;
-  padding-right: 1mm;
-
+  #aboutleftMain {
+    max-width: 100ch;
+    height: 400px;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 2;
+    padding-left: 1.5mm;
+    padding-right: 1mm;
+    text-overflow: ellipsis;
 }
 hr { 
   display: block;
