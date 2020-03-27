@@ -67,6 +67,7 @@ p {
     text-align: center;
   }
   #aboutleftMain {
+    display: block;
     max-width: 100ch;
     height: 400px;
     font-size: 1.4rem;
